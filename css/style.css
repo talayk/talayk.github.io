@@ -10,6 +10,13 @@ body {
       align-content: absolute;
 
     }
+nav{
+  position: relative;
+  margin left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10em 70em;
+}
 
 
 #header {
@@ -19,14 +26,6 @@ body {
       background-position:  center center;
       position: relative;
      
-
-       
-     }
-nav {
-    
-   
-    size: 20px;
-
 }
 h1 {
       font-family: 'Poiret One', cursive;
@@ -110,7 +109,7 @@ a {
       text-decoration: none;
       letter-spacing: 2px;
       text-decoration: underline;
-      padding: 2em, 3em;
+    
 
     }
 a:hover {
