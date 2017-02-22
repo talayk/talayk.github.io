@@ -14,9 +14,12 @@ body {
 
 header {
     background-color: black;
-   
-    padding: 20px;
+    width: 80%;
+    position: center;
+    padding: 40px 4;
     text-align: center;
+    line-height: 3em;
+    margin: auto;s
 }
 
 p {
@@ -63,6 +66,7 @@ img {
 	padding: 100px;
 	background-color: black;
 	border: 1px solid black;
+	align-items: center;
 
 	/*float: left;*/
 }
@@ -102,7 +106,7 @@ footer {
 #left {
 	background-color: black;
     border: 1px black solid;
-    padding: 5em;
+    padding: 1em, 5em;
     margin: 0px; /*try changing the values of the margin*/
     float: left;
     text-align: center;
@@ -112,17 +116,19 @@ footer {
 #right {
     background-color: black;
     border: 1px black solid;
-    padding: 6em;
+    padding:  6em;
     float: right;
     width: 60%; /*right element’s width will be 60% of the available space*/
+    text-align: center
 
 }
 #bottom {
 	background-color: black;
     border: 1px black solid;
-    padding: 6em;
-    float: right;
-    width: 60%
+ 	padding: 4em;
+    float: left;
+    width: 38%;
+    text-align:center;
 
 }
 
