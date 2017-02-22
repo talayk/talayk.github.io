@@ -1,0 +1,137 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: black;
+} 
+
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: black;
+	color: white;
+}
+
+header {
+    background-color: black;
+   
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+	font-weight: 300;
+}
+
+nav {
+	background-color: black;
+	border: 1px black solid;
+}
+
+ul {
+	text-align: center;
+	padding: 10px
+}
+
+li{
+	display: inline;
+}
+
+a {
+	text-decoration: line;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+	width: 200px;
+	color: white;
+}
+
+a:hover { /* pseudo-class */
+	background-color: black;
+	text-decoration: none;
+	color: white;
+}
+
+a:active {
+	color: white;
+}
+
+img {
+	display: block;
+	width: 110%;
+	margin: auto;
+	padding: 100px;
+	background-color: black;
+	border: 1px solid black;
+
+	/*float: left;*/
+}
+
+nav {
+	padding: 10px;
+}
+
+aside {
+	background-color: black;
+	border: 1px black solid;
+}
+
+article {
+	background-color: black;
+	border: 1px black solid;
+}
+
+footer {
+	background-color: black;
+	border: 1px black solid;
+	text-align: center;
+	padding: 10px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 10px auto;
+}
+
+#two_columns {
+	background-color: black;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: black;
+    border: 1px black solid;
+    padding: 5em;
+    margin: 0px; /*try changing the values of the margin*/
+    float: left;
+    text-align: center;
+    width: 38%; /* left element’s width will be 3% of the available space */
+}
+
+#right {
+    background-color: black;
+    border: 1px black solid;
+    padding: 6em;
+    float: right;
+    width: 60%; /*right element’s width will be 60% of the available space*/
+
+}
+#bottom {
+	background-color: black;
+    border: 1px black solid;
+    padding: 6em;
+    float: right;
+    width: 60%
+
+}
+
+
+.clearfix:after { /* once you float elements that are nested inside a parent element it no longer add to the height of that parent element, you should use clearfix to get the two columns*/
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
